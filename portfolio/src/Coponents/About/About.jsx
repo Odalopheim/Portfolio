@@ -1,8 +1,17 @@
-export default function About() {
+import React from 'react';
+import './About.css';
+
+const About = () => {
   return (
-    <section id="about">
-      <h2>Om Meg</h2>
-      <p>Skriv en setning.</p>
+    <section className="about-section">
+      <div className="about-container">
+        <h2>Om meg</h2>
+        <p>
+          Jeg er en lidenskapelig frontend-utvikler som liker å designe og utvikle moderne nettsider.
+        </p>
+      </div>
     </section>
   );
-}
+};
+
+export default About;

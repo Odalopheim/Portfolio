@@ -1,16 +1,23 @@
+import React from 'react';
+import './Navbar.css';
 
-
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="navbar">
-      <h1>Ditt Navn</h1>
-      <ul>
-        <li><a href="#hero">Hjem</a></li>
-        <li><a href="#about">Om meg</a></li>
-        <li><a href="#services">Tjenester</a></li>
-        <li><a href="#mywork">Prosjekter</a></li>
-        <li><a href="#contact">Kontakt</a></li>
-      </ul>
-    </nav>
+    <header className="navbar">
+      <div className="navbar-container">
+        <div className="logo">Oda<span>.</span></div>
+        <nav>
+          <ul className="nav-links">
+            <li><a href="#Hero">Hjem</a></li>
+            <li><a href="#About">Om meg</a></li>
+            <li><a href="#Services">Tjenester</a></li>
+            <li><a href="#MyWork">Prosjekter</a></li>
+            <li><a href="#Contact">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
-}
+};
+
+export default Navbar;
