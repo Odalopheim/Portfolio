@@ -19,7 +19,7 @@ const Services = () => {
           <div className="service-card">
             <h3>⚙️ Frontend-utvikling</h3>
             <p>
-              Jeg bygger nettsider med HTML, CSS, JavaScript og React – med fokus på ytelse og brukeropplevelse.
+              Jeg bygger nettsider med HTML, CSS, JavaScript, c# og React – med fokus på ytelse og brukeropplevelse.
             </p>
           </div>
 

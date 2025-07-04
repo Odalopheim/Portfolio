@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
         <h2>Om meg</h2>
         <p>
-          Jeg er en lidenskapelig frontend-utvikler som liker å designe og utvikle moderne nettsider.
+          Jeg er en frontend- og backend-utvikler som liker å designe og utvikle moderne nettsider.
         </p>
       </div>
     </section>
