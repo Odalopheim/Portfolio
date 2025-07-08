@@ -5,7 +5,10 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-container">
-        <div className="logo">Oda<span>.</span></div>
+        <div className="logo">
+          Oda<span>.</span>
+        </div>
+
         <nav>
           <ul className="nav-links">
             <li><a href="#Hero">Hjem</a></li>
@@ -15,9 +18,19 @@ const Navbar = () => {
             <li><a href="#Contact">Kontakt</a></li>
           </ul>
         </nav>
+
+        <a
+          href="https://www.linkedin.com/in/odalundeopheim"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="linkedin-btn"
+        >
+          LinkedIn
+        </a>
       </div>
     </header>
   );
 };
 
 export default Navbar;
+
