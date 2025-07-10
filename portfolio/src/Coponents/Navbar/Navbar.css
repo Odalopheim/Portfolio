@@ -59,3 +59,12 @@
   background-color: #084c9e;
   transform: translateY(-2px);
 }
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left-side img {
+  height: 40px;
+}

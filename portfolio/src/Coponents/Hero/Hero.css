@@ -1,5 +1,5 @@
 .hero-section {
-  background-color: #f3f4f6; /* Tailwind: bg-gray-100 */
+  background-color: #f3f4f6;
   padding: 4rem 0;
 }
 
@@ -16,6 +16,7 @@
 @media (min-width: 768px) {
   .hero-container {
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .hero-text {
@@ -29,58 +30,89 @@
 }
 
 .hero-title {
-  font-size: 2.25rem; /* text-4xl */
+  font-size: 2.5rem;
   font-weight: 700;
-  color: #1f2937; /* text-gray-900 */
+  color: #1f2937;
   margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
   .hero-title {
-    font-size: 3rem; /* text-5xl */
+    font-size: 3rem;
   }
 }
 
 .hero-highlight {
-  color: #2563eb; /* text-blue-600 */
+  color: #2563eb;
 }
 
 .hero-description {
-  color: #374151; /* text-gray-700 */
-  margin-bottom: 1.5rem;
+  color: #374151;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
-.hero-button {
-  display: inline-block;
-  background-color: #2563eb;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 9999px;
-  text-decoration: none;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-}
-
-.hero-button:hover {
-  background-color: #1d4ed8;
-}
-
-.hero-image {
-  flex: 1;
-  max-width: 20rem;
-  margin: 0 auto;
-  border-radius: 1.5rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
 .hero-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 768px) {
   .hero-buttons {
     justify-content: flex-start;
   }
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 9999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-left: auto;
+}
+
+.hero-button.linkedin {
+  background-color: #0a66c2;
+  color: white;
+}
+
+.hero-button.linkedin:hover {
+  background-color: #084c9e;
+}
+
+.hero-button.resume {
+  background-color: #2563eb;
+  color: white;
+}
+
+.hero-button.resume:hover {
+  background-color: #1d4ed8;
+}
+
+.hero-button.github {
+  background-color: #111827;
+  color: white;
+}
+
+.hero-button.github:hover {
+  background-color: #000;
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 20rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }

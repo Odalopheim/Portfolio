@@ -6,23 +6,45 @@ const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-container">
-        
         <div className="hero-text">
           <h1 className="hero-title">
             Hei, jeg er <span className="hero-highlight">Oda</span>
           </h1>
+
           <p className="hero-description">
-            Jeg er en webutvikler med fokus på design, frontend og brukeropplevelse.
+            Jeg er en 22 år gammel student ved Universitetet i Agder, hvor jeg studerer IT og informasjonssystemer.
           </p>
-          <a href="#Contact" className="hero-button">
-            Kontakt meg
-          </a>
+
+          <div className="hero-buttons">
+            <a
+              href="https://www.linkedin.com/in/odalundeopheim"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-button linkedin"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/odalopheim"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-button github"
+            >
+              GitHub
+            </a>
+            <a
+              href="cv_netside.pdf"
+              download
+              className="hero-button resume"
+            >
+              Last ned CV
+            </a>
+          </div>
         </div>
 
         <div className="hero-image-wrapper">
           <img src={profil} alt="Profilbilde" className="hero-image" />
         </div>
-
       </div>
     </section>
   );

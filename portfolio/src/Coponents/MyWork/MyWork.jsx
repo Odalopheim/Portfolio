@@ -12,17 +12,24 @@ const MyWork = () => {
 
         <div className="projects-grid">
           <div className="project-card">
-            <img src="https://via.placeholder.com/400x250" alt="Prosjekt 1" />
-            <h3>Prosjekt 1</h3>
-            <p>En nettside laget for en lokal bedrift med fokus på enkelhet og brukervennlighet.</p>
-            <a href="#" target="_blank" rel="noreferrer">Se prosjekt</a>
+            <img src="https://via.placeholder.com/400x250" alt="Mitt GitHub Prosjekt" />
+            <h3>Prosjekt i GIS</h3>
+            <p>Et prosjekt hvor vi jobbet med store geografiske datasett og jobbet med å anvende dem på en god måte.</p>
+            <a href="https://github.com/Odalopheim/GiS-MAppeInnlevering5" target="_blank" rel="noreferrer">
+                Se på GitHub
+            </a>
           </div>
+    
+  
 
-          <div className="project-card">
-            <img src="https://via.placeholder.com/400x250" alt="Prosjekt 2" />
-            <h3>Prosjekt 2</h3>
-            <p>En portefølje for en designer laget med React og responsivt design.</p>
-            <a href="#" target="_blank" rel="noreferrer">Se prosjekt</a>
+
+           <div className="project-card">
+            <img src="https://via.placeholder.com/400x250" alt="Mitt GitHub Prosjekt" />
+            <h3>Prosjekt fra med oppgave fra kartverket</h3>
+            <p>Et prosjekt hvor vi jobbet med helle prosessfasen.</p>
+            <a href="https://github.com/Odalopheim/Kartverket1" target="_blank" rel="noreferrer">
+                Se på GitHub
+            </a>
           </div>
 
           <div className="project-card">
