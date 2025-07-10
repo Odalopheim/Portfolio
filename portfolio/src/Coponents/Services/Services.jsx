@@ -10,7 +10,7 @@ const Services = () => {
 
         <div className="services-grid">
           <div className="service-card">
-            <h3>🌐 Webdesign</h3>
+            <h3>🌐 Koding</h3>
             <p>
               Jeg lager moderne, brukervennlige og responsive nettsider som passer alle skjermstørrelser.
             </p>

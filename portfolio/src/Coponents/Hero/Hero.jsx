@@ -33,7 +33,7 @@ const Hero = () => {
               GitHub
             </a>
             <a
-              href="cv_netside.pdf"
+              href="cv.pdf"
               download
               className="hero-button resume"
             >
