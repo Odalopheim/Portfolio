@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="contact-section" id="Contact">
       <div className="contact-container">
         <h2>Kontakt meg</h2>
-        <p>Ta gjerne kontakt hvis du vil samarbeide eller bare si hei!</p>
+        <p>Ta gjerne kontakt</p>
 
         <div className="contact-info">
           <div className="contact-item">

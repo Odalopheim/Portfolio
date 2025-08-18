@@ -12,7 +12,7 @@ const Hero = () => {
           </h1>
 
           <p className="hero-description">
-            Jeg er en 22 år gammel student ved Universitetet i Agder, hvor jeg studerer IT og informasjonssystemer.
+            Jeg er en 22 år gammel student ved Universitetet i Agder, som går 3 året på IT og informasjonssystemer.
           </p>
 
           <div className="hero-buttons">

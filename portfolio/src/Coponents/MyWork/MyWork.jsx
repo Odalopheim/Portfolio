@@ -25,19 +25,22 @@ const MyWork = () => {
 
            <div className="project-card">
             <img src="https://via.placeholder.com/400x250" alt="Mitt GitHub Prosjekt" />
-            <h3>Prosjekt fra med oppgave fra kartverket</h3>
-            <p>Et prosjekt hvor vi jobbet med helle prosessfasen.</p>
+            <h3>Prosjekt med oppgave fra kartverket</h3>
+            <p>Et prosjekt hvor vi jobbet med hele prosessfasen. Der vi laget et produkt for Kartverket hvor brukere kunne melde av feil i kartet.</p>
             <a href="https://github.com/Odalopheim/Kartverket1" target="_blank" rel="noreferrer">
                 Se på GitHub
             </a>
           </div>
 
           <div className="project-card">
-            <img src="https://via.placeholder.com/400x250" alt="Prosjekt 3" />
-            <h3>Prosjekt 3</h3>
-            <p>Et interaktivt skjema med validering og live feedback, laget med HTML/CSS/JS.</p>
-            <a href="#" target="_blank" rel="noreferrer">Se prosjekt</a>
+            <img src="https://via.placeholder.com/400x250" alt="Mitt GitHub Prosjekt" />
+            <h3>Database oppgave</h3>
+            <p>En oppgave hvor vi jobbet med databaser og SQL-spørringer.</p>
+            <a href="https://github.com/simholmen/IS309-assignment2" target="_blank" rel="noreferrer">
+                Se på GitHub
+            </a>
           </div>
+
         </div>
       </div>
     </section>

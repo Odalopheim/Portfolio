@@ -10,23 +10,23 @@ const Services = () => {
 
         <div className="services-grid">
           <div className="service-card">
-            <h3>🌐 Koding</h3>
+            <h3>Koding</h3>
             <p>
-              Jeg lager moderne, brukervennlige og responsive nettsider som passer alle skjermstørrelser.
+              Jeg har utviklet flere prosjekter med HTML, CSS, JavaScript og C#. Jeg kan hjelpe deg med å bygge moderne og responsive nettsider.
             </p>
           </div>
 
           <div className="service-card">
-            <h3>⚙️ Frontend-utvikling</h3>
+            <h3>Frontend-utvikling</h3>
             <p>
-              Jeg bygger nettsider med HTML, CSS, JavaScript, c# og React – med fokus på ytelse og brukeropplevelse.
+              Jeg har bygget nettsider med HTML, CSS, JavaScript, C# og React – med fokus på ytelse og brukeropplevelse.
             </p>
           </div>
 
           <div className="service-card">
-            <h3>🎨 UI/UX Design</h3>
+            <h3>UI/UX Design</h3>
             <p>
-              Jeg designer intuitive brukergrensesnitt som gjør det enkelt og behagelig å bruke nettsiden.
+              Jeg designer nettsider som setter brukeropplevelse i fokus.
             </p>
           </div>
         </div>
