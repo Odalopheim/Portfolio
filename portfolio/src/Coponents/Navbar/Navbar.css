@@ -17,6 +17,16 @@
   align-items: center;
 }
 
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.uia-logo {
+  height: 40px;
+}
+
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
@@ -27,7 +37,8 @@
   color: #2563eb;
 }
 
-.nav-links {
+/* Navigasjon */
+.nav-links ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
@@ -43,6 +54,8 @@
 .nav-links li a:hover {
   color: #2563eb;
 }
+
+/* LinkedIn knapp */
 .linkedin-btn {
   background-color: #0a66c2;    
   color: #fff;
@@ -59,12 +72,50 @@
   background-color: #084c9e;
   transform: translateY(-2px);
 }
-.left-side {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+
+/* Hamburger meny */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
 }
 
-.left-side img {
-  height: 40px;
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #111827;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+/* RESPONSIVITET */
+@media (max-width: 768px) {
+  .nav-links ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .linkedin-btn {
+    display: none; /* Skjul LinkedIn-knappen på mobil (kan legges inn i menyen hvis du vil) */
+  }
 }
