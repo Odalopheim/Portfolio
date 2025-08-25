@@ -4,7 +4,7 @@ import profil from '../../assets/profil.jpg';
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section id="Hero" className="hero-section">
       <div className="hero-container">
         <div className="hero-text">
           <h1 className="hero-title">

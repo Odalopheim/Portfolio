@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import uia_logo from '../../assets/uia_logo.png';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
