@@ -10,9 +10,9 @@ const Services = () => {
 
         <div className="services-grid">
           <div className="service-card">
-            <h3>Koding</h3>
+            <h3>Backend-utvikler</h3>
             <p>
-              Jeg har utviklet flere prosjekter med HTML, CSS, JavaScript og C#. Jeg kan hjelpe deg med å bygge moderne og responsive nettsider.
+              Jeg har kan hjelpe med datebase, php og mer. 
             </p>
           </div>
 
