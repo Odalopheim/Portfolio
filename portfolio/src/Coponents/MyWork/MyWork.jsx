@@ -12,7 +12,6 @@ const MyWork = () => {
 
         <div className="projects-grid">
           <div className="project-card">
-            <img src="https://via.placeholder.com/400x250" alt="Mitt GitHub Prosjekt" />
             <h3>Prosjekt i GIS</h3>
             <p>Et prosjekt hvor vi jobbet med store geografiske datasett og jobbet med å anvende dem på en god måte.</p>
             <a href="https://github.com/Odalopheim/GiS-MAppeInnlevering5" target="_blank" rel="noreferrer">
@@ -24,7 +23,6 @@ const MyWork = () => {
 
 
            <div className="project-card">
-            <img src="https://via.placeholder.com/400x250" alt="Mitt GitHub Prosjekt" />
             <h3>Prosjekt med oppgave fra kartverket</h3>
             <p>Et prosjekt hvor vi jobbet med hele prosessfasen. Der vi laget et produkt for Kartverket hvor brukere kunne melde av feil i kartet.</p>
             <a href="https://github.com/Odalopheim/Kartverket1" target="_blank" rel="noreferrer">
@@ -33,7 +31,6 @@ const MyWork = () => {
           </div>
 
           <div className="project-card">
-            <img src="https://via.placeholder.com/400x250" alt="Mitt GitHub Prosjekt" />
             <h3>Database oppgave</h3>
             <p>En oppgave hvor vi jobbet med databaser og SQL-spørringer.</p>
             <a href="https://github.com/simholmen/IS309-assignment2" target="_blank" rel="noreferrer">
