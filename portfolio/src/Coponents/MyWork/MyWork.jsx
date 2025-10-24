@@ -7,7 +7,7 @@ const MyWork = () => {
       <div className="mywork-container">
         <h2>Mine Prosjekter</h2>
         <p className="mywork-description">
-          Her er noen av prosjektene jeg har jobbet med. Flere kommer!
+          Her er noen av prosjektene jeg har jobbet med.
         </p>
 
         <div className="projects-grid">
